@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/background_common"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="দ্বিতীয় ভাগ"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="পরাষ্ট্র পরিচালনার মূলনীতি"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/at_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/at"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/noy_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/noy"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/dosh_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/dosh"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/egaro_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/egaro"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/baro_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/baro"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/tero_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/tero"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/chouddo_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/chouddo"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/ponero_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/ponero"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/sholo_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/sholo"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/shotero_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/shotero"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/atharo_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/atharo"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/atharo_ko_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/atharo_ko"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/unish_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/unish"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/bish_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/bish"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/ekush_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/ekush"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/baish_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/baish"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/teish_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/teish"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/teish_ko_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/teish_ko"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/chobbish_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/chobbish"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/pochish_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prothom_vag21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:longClickable="true"
+                android:text="@string/pochish"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

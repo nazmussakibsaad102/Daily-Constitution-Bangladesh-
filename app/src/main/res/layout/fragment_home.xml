@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/bangladesh_new_one"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:alpha=".80"
+        android:background="@drawable/button_selector"
+        android:gravity="center"
+        android:text="প্রস্তাবনা"
+        android:textColor="#FFFFFFFF" />
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="প্রথম ভাগ\nপ্রজাতন্ত্র"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="দ্বিতীয় ভাগ\nরাষ্ট্র পরিচালনার মূলনীতি"
+            android:textColor="#FFFFFFFF" />
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="তৃতীয় ভাগ\nমৌলিক অধিকার"
+            android:textColor="#FFFFFFFF" />
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="চতুর্থ ভাগ\nনির্বাহী বিভাগ"
+            android:textColor="#FFFFFFFF" />
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="পঞ্চম ভাগ\nআইনসভা"
+            android:textColor="#FFFFFFFF" />
+        <Button
+        android:id="@+id/bt7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:alpha=".80"
+        android:background="@drawable/button_selector"
+        android:gravity="center"
+        android:text="ষষ্ঠ ভাগ\n বিচার বিভাগ"
+        android:textColor="#FFFFFFFF" />
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="সপ্তম ভাগ\n নির্বাচন"
+            android:textColor="#FFFFFFFF" />
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="অষ্টম ভাগ\n মহা হিসাব-নিরীক্ষক ও নিয়ন্ত্রক"
+            android:textColor="#FFFFFFFF" />
+        <Button
+            android:id="@+id/bt10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="নবম ভাগ\n বাংলাদেশের কর্মবিভাগ"
+            android:textColor="#FFFFFFFF" />
+        <Button
+            android:id="@+id/bt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="নবম-ক ভাগ\n জরুরী বিধানাবলী"
+            android:textColor="#FFFFFFFF" />
+        <Button
+        android:id="@+id/bt12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:alpha=".80"
+        android:background="@drawable/button_selector"
+        android:gravity="center"
+        android:text="দশম ভাগ\n সংবিধান-সংশোধন"
+        android:textColor="#FFFFFFFF" />
+        <Button
+            android:id="@+id/bt13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha=".80"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="একাদশ ভাগ\n বিবিধ"
+            android:textColor="#FFFFFFFF" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
