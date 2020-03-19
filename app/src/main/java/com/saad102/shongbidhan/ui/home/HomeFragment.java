@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.saad102.shongbidhan.ChoturthoVag;
 import com.saad102.shongbidhan.DitiyoVag;
 import com.saad102.shongbidhan.Prostabona;
 import com.saad102.shongbidhan.ProthomVag;
@@ -67,6 +68,16 @@ public class HomeFragment extends Fragment {
                     @Override
                     public void onClick(View v) {
                         Intent intetnt= new Intent(getActivity(), TritioVag.class);
+                        startActivity(intetnt);
+                    }
+                }
+        );
+        final Button bt5 = root.findViewById(R.id.bt5);
+        bt5.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intetnt= new Intent(getActivity(), ChoturthoVag.class);
                         startActivity(intetnt);
                     }
                 }

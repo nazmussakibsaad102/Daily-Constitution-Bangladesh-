@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "795985521673",
+    "firebase_url": "https://online-school-management-5e6d3.firebaseio.com",
+    "project_id": "online-school-management-5e6d3",
+    "storage_bucket": "online-school-management-5e6d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795985521673:android:ca0bd6e77147796452dcd8",
+        "android_client_info": {
+          "package_name": "com.saad102.shongbidhan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795985521673-s6rfl4m5ghqaqniafjclake7c3benj23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvWMvirJbQro65mNwhC6mltt6Lw0tgPm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795985521673-s6rfl4m5ghqaqniafjclake7c3benj23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

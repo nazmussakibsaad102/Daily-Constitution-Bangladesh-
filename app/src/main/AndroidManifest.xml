@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TritioVag"></activity>
+        <activity android:name=".ChoturthoVag"></activity>
+        <activity android:name=".TritioVag" />
         <activity android:name=".DitiyoVag" />
         <activity android:name=".ProthomVag" />
         <activity android:name=".Prostabona" />
