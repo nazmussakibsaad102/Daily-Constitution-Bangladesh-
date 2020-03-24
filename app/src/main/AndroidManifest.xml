@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChoturthoVag"></activity>
+        <activity android:name=".NobomVag"></activity>
+        <activity android:name=".OshtomVag" />
+        <activity android:name=".ShoptomVag" />
+        <activity android:name=".ShoshthoVag" />
+        <activity android:name=".PonchomVag" />
+        <activity android:name=".ChoturthoVag" />
         <activity android:name=".TritioVag" />
         <activity android:name=".DitiyoVag" />
         <activity android:name=".ProthomVag" />

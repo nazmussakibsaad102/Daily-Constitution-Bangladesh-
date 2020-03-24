@@ -17,7 +17,11 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.saad102.shongbidhan.R;
 
 import java.util.HashMap;
@@ -26,12 +30,21 @@ import java.util.Map;
 public class GalleryFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
-    private EditText etTitle;
-    private EditText etDescription;
+    String KEY_TITLE="title";
+    String Key_DES = "description";
+    String KEY_BEK = "explanation";
+    String KEY_BEKTITLE = "bekkhaTitle";
+    private TextView textTitle;
+    private TextView textDescription;
+    private TextView textBekkhaTitle;
+    private TextView textBekkha;
+//    private TextView textLoaded;
     private String title;
     private String description;
     private Button fButton;
+    private Button floadButton;
     FirebaseFirestore db= FirebaseFirestore.getInstance();
+    DocumentReference constitutionLoad = db.document("/সংবিধান/অনুচ্ছেদ");
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -46,37 +59,95 @@ public class GalleryFragment extends Fragment {
 //            }
 //        });
 
-         etTitle = root.findViewById(R.id.t1);
-       etDescription = root.findViewById(R.id.d1);
-       fButton=root.findViewById(R.id.f1);
-        fButton.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        title = etTitle.getText().toString();
-                        description = etDescription.getText().toString();
-                        Map<String, Object> note = new HashMap<>();
-                        note.put("title", title);
-                        note.put("description", description);
-                        db.collection("সংবিধান").document("অনুচ্ছেদ").set(note).addOnSuccessListener(new OnSuccessListener<Void>() {
-                            @Override
-                            public void onSuccess(Void aVoid) {
-                                 Toast.makeText(getActivity(), "saved to firestore", Toast.LENGTH_LONG).show();
+         textTitle = root.findViewById(R.id.ajkerTitle);
+       textDescription = root.findViewById(R.id.ajkerDescription);
+       textBekkha = root.findViewById(R.id.ajkerBekkha);
+       textBekkhaTitle = root.findViewById(R.id.ajkerBekkhaTitle);
+//       fButton=root.findViewById(R.id.f1);
 
-                            }
-                        }).addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                Toast.makeText(getActivity(), "not saved", Toast.LENGTH_LONG).show();
-                            }
-                        });
-
-                    }
+        constitutionLoad.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
+                if (e!=null){
+                    Toast.makeText(getActivity(), "error while loading", Toast.LENGTH_LONG).show();
+                    return;
                 }
-        );
+               if (documentSnapshot.exists()){
+                   String title = documentSnapshot.getString(KEY_TITLE);
+                   String des = documentSnapshot.getString(Key_DES);
+                   String bekkhaTitle = documentSnapshot.getString(KEY_BEKTITLE);
+                   String bekkha = documentSnapshot.getString(KEY_BEK);
+                   textTitle.setText( title);
+                   textDescription.setText(des);
+                   textBekkhaTitle.setText(bekkhaTitle);
+                   textBekkha.setText(bekkha);
+
+               }
+
+            }
+        });
+
+
+
+//       floadButton = root.findViewById(R.id.f2);
+//       textLoaded = root.findViewById(R.id.fsload);
+//
+//        fButton.setOnClickListener(
+//                new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        title = etTitle.getText().toString();
+//                        description = etDescription.getText().toString();
+//                        Map<String, Object> note = new HashMap<>();
+//                        note.put(KEY_TITLE, title);
+//                        note.put(Key_DES, description);
+//                       constitutionLoad.set(note).addOnSuccessListener(new OnSuccessListener<Void>() {
+//                            @Override
+//                            public void onSuccess(Void aVoid) {
+//                                 Toast.makeText(getActivity(), "saved to firestore", Toast.LENGTH_LONG).show();
+//
+//                            }
+//                        }).addOnFailureListener(new OnFailureListener() {
+//                            @Override
+//                            public void onFailure(@NonNull Exception e) {
+//                                Toast.makeText(getActivity(), "not saved", Toast.LENGTH_LONG).show();
+//                            }
+//                        });
+//
+//                    }
+//                }
+//        );
+
+//        floadButton.setOnClickListener(
+//                new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        constitutionLoad.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+//                            @Override
+//                            public void onSuccess(DocumentSnapshot documentSnapshot) {
+//                               if(documentSnapshot.exists()){
+//                                    String title = documentSnapshot.getString(KEY_TITLE);
+//                                    String des = documentSnapshot.getString(Key_DES);
+//                                    textLoaded.setText("অনুচ্ছেদ এর শিরোনাম"+ title + "\n"+
+//                                            des);
+//                               }else {
+//                                   Toast.makeText(getActivity(), "Document does not exist", Toast.LENGTH_LONG).show();
+//                               }
+//                            }
+//                        }).addOnFailureListener(new OnFailureListener() {
+//                            @Override
+//                            public void onFailure(@NonNull Exception e) {
+//                                Toast.makeText(getActivity(), "isn't retreived from firestore", Toast.LENGTH_LONG).show();
+//                            }
+//                        });
+//
+//                    }
+//                }
+//        );
 
          return root;
     }
+
 
 
 }

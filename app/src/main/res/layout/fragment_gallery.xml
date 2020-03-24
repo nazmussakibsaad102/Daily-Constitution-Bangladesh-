@@ -5,24 +5,94 @@
     android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:padding="5dp"
-    android:orientation="vertical">
-
-    <EditText
-        android:id="@+id/t1"
+    android:orientation="vertical"
+    android:background="@drawable/background_common">
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="title" />
+        android:layout_marginTop="20dp"
+        android:longClickable="true"
+        android:text="আজকের গুরূত্বপূর্ণ সংবিধান"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/d1"
+
+    <TextView
+        android:id="@+id/ajkerTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="description" />
-
-    <Button
-        android:id="@+id/f1"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:longClickable="true"
+        android:text="@string/at_title"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ajkerDescription"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="create firestore" />
+        android:layout_marginTop="20dp"
+        android:longClickable="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/ajkerBekkhaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:longClickable="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ajkerBekkha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:longClickable="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:textSize="18sp" />
+
+
+    <!--    <EditText-->
+<!--        android:id="@+id/t1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="title" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/d1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="description" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/f1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="create firestore"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/f2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="Load from database" />-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/fsload"-->
+<!--        android:textSize="18sp"/>-->
 </LinearLayout>
