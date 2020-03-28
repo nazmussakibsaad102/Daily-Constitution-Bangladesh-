@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="#EDEDED">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="নবম - ক ভাগ"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="জরুরী বিধানাবলী"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/ekshoekchollish_ko_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
+
+        <TextView
+            android:id="@+id/prothom_vag1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/ekshoekchollish_ko"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/ekshoekchollish_kho_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
+
+        <TextView
+            android:id="@+id/prothom_vag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/ekshoekchollish_kho"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/eksshoekchollish_go_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
+
+        <TextView
+            android:id="@+id/prothom_vag3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/ekshoekchollish_go"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

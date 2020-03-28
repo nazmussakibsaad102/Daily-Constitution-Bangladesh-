@@ -5,14 +5,16 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.saad102.shongbidhan.ChoturthoVag;
 import com.saad102.shongbidhan.DitiyoVag;
+import com.saad102.shongbidhan.DoshomVag;
+import com.saad102.shongbidhan.EkadoshVag;
 import com.saad102.shongbidhan.NobomVag;
 import com.saad102.shongbidhan.OshtomVag;
 import com.saad102.shongbidhan.PonchomVag;
@@ -34,19 +36,19 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
 
-        final Button bt1 = root.findViewById(R.id.bt1);
+        final CardView bt1 = root.findViewById(R.id.bt1);
         bt1.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent intetnt= new Intent(getActivity(), Prostabona.class);
-                       startActivity(intetnt);
+                        startActivity(intetnt);
                     }
                 }
         );
 
 
-        final Button bt2 = root.findViewById(R.id.bt2);
+        final CardView bt2 = root.findViewById(R.id.bt2);
         bt2.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -57,7 +59,7 @@ public class HomeFragment extends Fragment {
                 }
         );
 
-        final Button bt3 = root.findViewById(R.id.bt3);
+        final CardView bt3 = root.findViewById(R.id.bt3);
         bt3.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -67,7 +69,7 @@ public class HomeFragment extends Fragment {
                     }
                 }
         );
-        final Button bt4 = root.findViewById(R.id.bt4);
+        final CardView bt4 = root.findViewById(R.id.bt4);
         bt4.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -77,7 +79,7 @@ public class HomeFragment extends Fragment {
                     }
                 }
         );
-        final Button bt5 = root.findViewById(R.id.bt5);
+        final CardView bt5 = root.findViewById(R.id.bt5);
         bt5.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -87,7 +89,7 @@ public class HomeFragment extends Fragment {
                     }
                 }
         );
-        final Button bt6 = root.findViewById(R.id.bt6);
+        final CardView bt6 = root.findViewById(R.id.bt6);
         bt6.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -97,7 +99,7 @@ public class HomeFragment extends Fragment {
                     }
                 }
         );
-        final Button bt7 = root.findViewById(R.id.bt7);
+        final CardView bt7 = root.findViewById(R.id.bt7);
         bt7.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -107,7 +109,7 @@ public class HomeFragment extends Fragment {
                     }
                 }
         );
-        final Button bt8 = root.findViewById(R.id.bt8);
+        final CardView bt8 = root.findViewById(R.id.bt8);
         bt8.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -117,7 +119,7 @@ public class HomeFragment extends Fragment {
                     }
                 }
         );
-        final Button bt9 = root.findViewById(R.id.bt9);
+        final CardView bt9 = root.findViewById(R.id.bt9);
         bt9.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -127,12 +129,42 @@ public class HomeFragment extends Fragment {
                     }
                 }
         );
-        final Button bt10 = root.findViewById(R.id.bt10);
+        final CardView bt10 = root.findViewById(R.id.bt10);
         bt10.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent intetnt= new Intent(getActivity(), NobomVag.class);
+                        startActivity(intetnt);
+                    }
+                }
+        );
+        final CardView bt11 = root.findViewById(R.id.bt11);
+        bt11.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intetnt= new Intent(getActivity(), NobomVag.class);
+                        startActivity(intetnt);
+                    }
+                }
+        );
+        final CardView bt12 = root.findViewById(R.id.bt12);
+        bt12.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intetnt= new Intent(getActivity(), DoshomVag.class);
+                        startActivity(intetnt);
+                    }
+                }
+        );
+        final CardView bt13 = root.findViewById(R.id.bt13);
+        bt13.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intetnt= new Intent(getActivity(), EkadoshVag.class);
                         startActivity(intetnt);
                     }
                 }

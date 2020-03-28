@@ -1,93 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+<ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:background="@drawable/background_common"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingRight="16dp"
+            android:background="#EDEDED">
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="চতুর্থ ভাগ"
+                android:textStyle="bold"
                 android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textIsSelectable="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="8dp"
+                android:padding="10dp"
+                android:textColor="#000000"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:background="@drawable/box_shadow"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="নির্বাহী বিভাগ"
                 android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textIsSelectable="true"
-                android:textSize="24sp" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:elevation="8dp"
                 android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="১ম পরিচ্ছেদ-রাষ্ট্রিপতি"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:background="@drawable/box_shadow"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:background="@drawable/box_shadow"
                 android:longClickable="true"
-                android:text="@string/atchollish_title"
-                android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:text="১ম পরিচ্ছেদ - রাষ্ট্রপতি"
+                android:elevation="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:longClickable="true"
+                android:textAlignment="center"
+                android:text="@string/atchollish_title"
+                android:elevation="8dp"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/box_shadow"
+                />
 
             <TextView
                 android:id="@+id/prothom_vag1"
+                android:elevation="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/box_shadow"
                 android:longClickable="true"
                 android:text="@string/atchollish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/unoponchash_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag2"
@@ -96,22 +112,28 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/unoponchash"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/ponchash_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag3"
@@ -120,22 +142,27 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/ponchash"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/ekanno_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag4"
@@ -144,22 +171,27 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/ekanno"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/bayanno_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp" />
 
             <TextView
                 android:id="@+id/prothom_vag5"
@@ -168,22 +200,27 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/bayanno"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/teppanno_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp" />
 
             <TextView
                 android:id="@+id/prothom_vag6"
@@ -192,44 +229,55 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/teppanno"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/chuanno_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/chuanno"
-                android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:background="@drawable/box_shadow"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="২য় পরিচ্ছেদ- প্রধানমন্ত্রি ও মন্ত্রিসভা"
                 android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -238,10 +286,12 @@
                 android:longClickable="true"
                 android:text="@string/ponchanno_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp" />
 
             <TextView
                 android:id="@+id/prothom_vag8"
@@ -250,22 +300,28 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/ponchanno"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/chappanno_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag9"
@@ -274,22 +330,27 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/chappanno"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/shatanno_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag10"
@@ -298,22 +359,26 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/shatanno"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/atanno_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag12"
@@ -322,32 +387,43 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/atanno"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="৩য় পরিচ্ছেদ- স্থানীয় শাসন"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:longClickable="true"
+                android:text="৩য় পরিচ্ছেদ- স্থানীয় শাসন"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
                 android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:elevation="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:longClickable="true"
                 android:text="@string/unoshat_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag13"
@@ -356,22 +432,27 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/unoshat"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/shhat_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag14"
@@ -380,32 +461,41 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/shhat"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="৪র্থ পরিচ্ছেদ- প্রতিরক্ষা কর্মবিভাগ"
                 android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/ekshotti_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag15"
@@ -414,22 +504,27 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/ekshotti"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/bashotti_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag16"
@@ -438,22 +533,27 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/bashotti"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/teshotti_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag17"
@@ -462,32 +562,42 @@
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/teshotti"
-                android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="#000000"
+                android:background="@drawable/box_shadow"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:elevation="8dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="৫ম পরিচ্ছেদ- অ্যাটর্নি-জেনারেল"
                 android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:elevation="8dp"
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:longClickable="true"
                 android:text="@string/choushotti_title"
                 android:textAlignment="center"
-                android:textColor="#78B2ED"
                 android:textIsSelectable="true"
+                android:background="@drawable/box_shadow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:elevation="8dp"/>
 
             <TextView
                 android:id="@+id/prothom_vag18"
@@ -495,15 +605,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:longClickable="true"
-                android:text="@string/choushotti"
-                android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:text="@string/choushotti"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:background="@drawable/box_shadow"
+                android:layout_marginBottom="20dp"
+                android:elevation="8dp"/>
 
         </LinearLayout>
 
     </ScrollView>
 
-
-</LinearLayout>

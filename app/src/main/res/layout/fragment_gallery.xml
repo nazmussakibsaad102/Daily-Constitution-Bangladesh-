@@ -1,68 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:padding="5dp"
     android:orientation="vertical"
-    android:background="@drawable/background_common">
+    android:background="#EDEDED">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:longClickable="true"
         android:text="আজকের গুরূত্বপূর্ণ সংবিধান"
         android:textAlignment="center"
-        android:textColor="@color/white"
         android:textIsSelectable="true"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="8dp"
+        android:padding="10dp"
+        android:textColor="#000000"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:background="@drawable/box_shadow"/>
 
 
     <TextView
         android:id="@+id/ajkerTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:longClickable="true"
-        android:text="@string/at_title"
+        android:text="ইন্টারনেট-সংযোগ করুন"
         android:textAlignment="center"
-        android:textColor="@color/white"
         android:textIsSelectable="true"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:background="@drawable/box_shadow"/>
     <TextView
         android:id="@+id/ajkerDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:longClickable="true"
-        android:textAlignment="center"
-        android:textColor="@color/white"
         android:textIsSelectable="true"
-        android:textSize="18sp" />
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp" />
     <TextView
         android:id="@+id/ajkerBekkhaTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:longClickable="true"
         android:textAlignment="center"
-        android:textColor="@color/white"
         android:textIsSelectable="true"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:background="@drawable/box_shadow"/>
     <TextView
         android:id="@+id/ajkerBekkha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:longClickable="true"
-        android:textAlignment="center"
-        android:textColor="@color/white"
         android:textIsSelectable="true"
-        android:textSize="18sp" />
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp" />
 
 
     <!--    <EditText-->
@@ -96,3 +107,4 @@
 <!--        android:id="@+id/fsload"-->
 <!--        android:textSize="18sp"/>-->
 </LinearLayout>
+</ScrollView>

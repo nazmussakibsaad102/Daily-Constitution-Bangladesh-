@@ -1,601 +1,718 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+
+<ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:background="@drawable/background_common"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ScrollView
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="#EDEDED">
 
 
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="তৃতীয় ভাগ"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="মৌলিক অধিকার"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"    />
 
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="তৃতীয় ভাগ"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/chabbish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="মৌলিক অধিকার"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="24sp" />
+        <TextView
+            android:id="@+id/prothom_vag1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/chabbish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chabbish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/shatash_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chabbish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/shatash"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/shatash_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/atash_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/shatash"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/atash"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/atash_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/unotrish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/atash"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/unotrish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/unotrish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/trish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/unotrish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/trish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/trish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/ektrish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/trish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/ektrish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/ektrish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/botrish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/ektrish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/botrish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/botrish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/tetrish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/botrish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/tetrish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/tetrish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/choutrish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/tetrish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/choutrish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/choutrish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/poytrish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/choutrish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/poytrish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/poytrish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/chottrish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/poytrish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/chottrish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chottrish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/shaitrish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chottrish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/shaitrish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/shaitrish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/attrish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/shaitrish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/attrish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/attrish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/unochollish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/attrish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/unochollish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/unochollish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/chollish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/unochollish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/chollish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chollish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/ekchollish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag16"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chollish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/ekchollish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/ekchollish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/biallish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/ekchollish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/biallish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/biallish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/tetallish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag18"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/biallish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/tetallish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/tetallish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/chuallish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag19"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/tetallish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prothom_vag20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/chuallish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chuallish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/poytallish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag20"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chuallish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
+        <TextView
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/poytallish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/poytallish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/chechollish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
+        <TextView
+            android:id="@+id/prothom_vag22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/chechollish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/shatchollish_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/poytallish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chechollish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
+            android:id="@+id/prothom_vag23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/shatchollish"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:text="@string/shatchollish_ko_title"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"/>
 
-            <TextView
-                android:id="@+id/prothom_vag22"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/chechollish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/shatchollish_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+        <TextView
 
-            <TextView
-                android:id="@+id/prothom_vag23"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/shatchollish"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/shatchollish_ko_title"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:longClickable="true"
-                android:text="@string/shatchollish_ko"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textIsSelectable="true"
-                android:textSize="18sp" />
-
-
-        </LinearLayout>
-
-    </ScrollView>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:longClickable="true"
+            android:text="@string/shatchollish_ko"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"
+            android:layout_marginBottom="20dp"/>
 
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
