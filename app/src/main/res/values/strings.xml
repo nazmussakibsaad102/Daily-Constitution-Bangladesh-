@@ -855,4 +855,21 @@
         তবে শর্ত থাকে যে, বাংলা ও ইংরাজী পাঠের মধ্যে বিরোধের ক্ষেত্রে বাংলা পাঠ প্রাধান্য পাইবে।</string>
 
 
+    <string name="tofsil_title">তফসিল</string>
+    <string name="tofsilek_title">প্রথম তফসিল</string>
+    <string name="tofsilek_titledui">অন্যান্য বিধান সত্ত্বেও কার্যকর আইন</string>
+    <string name="tofsildui_title">দ্বিতীয় তফসিল</string>
+    <string name="tofsildui_titledui">রাষ্ট্রপতি-নির্বাচন(বিলুপ্ত)</string>
+    <string name="tofsiltin_title">তৃতীয় তফসিল</string>
+    <string name="tofsiltin_titledui">শপথ ও ঘোষণা</string>
+    <string name="tofsilchar_title">চতুর্থ তফসিল</string>
+    <string name="tofsilchar_titledui">ক্রান্তিকালীন ও অস্থায়ী বিধানাবলী</string>
+    <string name="tofsilpach_title">পঞ্চম তফসিল</string>
+    <string name="tofsilpach_titledui">১৯৭১ সালের ৭ই মার্চের ভাষণ</string>
+    <string name="tofsilchoy_title">ষষ্ঠ তফসিল</string>
+    <string name="tofsilchoy_titledui">স্বাধীনতার ঘোষণা</string>
+    <string name="tofsilshat_title">সপ্তম তফসিল</string>
+    <string name="tofsilshat_titledui">স্বাধীনতার ঘোষণা্পত্র</string>
+
+
 </resources>

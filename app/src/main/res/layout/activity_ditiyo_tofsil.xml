@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="#EDEDED">
+
+
+        <TextView
+            android:id="@+id/prostabona1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prostabona_1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:id="@+id/prostabona2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prostabona_2"
+            android:textAlignment="center"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:id="@+id/prostabona3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prostabona3"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:id="@+id/prostabona4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prostabona_4"
+            android:textAlignment="center"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+    </LinearLayout>
+</ScrollView>
+

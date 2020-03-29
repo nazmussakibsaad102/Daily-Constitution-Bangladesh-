@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                R.id.nav_home,R.id.nav_slideshow, R.id.nav_gallery,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_send
+                R.id.nav_tools, R.id.nav_share, R.id.nav_send ,R.id.nav_rate_us
             )
                 .setDrawerLayout(drawer)
                 .build();

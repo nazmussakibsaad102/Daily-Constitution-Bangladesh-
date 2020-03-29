@@ -9,32 +9,52 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EkadoshVag"
-            android:label="একাদশ ভাগ - বিবিধ"/>
-        <activity android:name=".DoshomVag"
-            android:label="দশম ভাগ - সংবিধান-সংশোধন"/>
-        <activity android:name=".NobomKoVag"
-            android:label="নবম-ক ভাগ - জরুরী বিধানাবলী"/>
-        <activity android:name=".NobomVag"
-            android:label="নবম ভাগ - বাংলাদেশের কর্মবিভাগ"/>
-        <activity android:name=".OshtomVag"
-            android:label="অষ্টম ভাগ - মহা হিসাব-নিরীক্ষক ও নিয়ন্ত্রক"/>
-        <activity android:name=".ShoptomVag"
-            android:label="সপ্তম ভাগ - নির্বাচন"/>
-        <activity android:name=".ShoshthoVag"
-            android:label="ষষ্ঠ ভাগ - বিচারবিভাগ"/>
-        <activity android:name=".PonchomVag"
-            android:label="পঞ্চম ভাগ - আইনসভা"/>
-        <activity android:name=".ChoturthoVag"
-            android:label="চতুর্থ ভাগ - নির্বাহী বিভাগ"/>
-        <activity android:name=".TritioVag"
-            android:label="তৃতীয় ভাগ - মৌলিক অধিকার"/>
-        <activity android:name=".DitiyoVag"
-            android:label="দ্বিতীয় ভাগ - রাষ্ট্র পরিচালনার মূলনীতি"/>
-        <activity android:name=".ProthomVag"
-            android:label="প্রথম ভাগ - প্রজাতন্ত্র"/>
-        <activity android:name=".Prostabona"
-            android:label="প্রস্তাবনা"/>
+        <activity android:name=".SoptomTofsil"></activity>
+        <activity android:name=".ShoshthoTofsil" />
+        <activity android:name=".PonchomTofsil" />
+        <activity android:name=".ChoturthoTofsil" />
+        <activity android:name=".TritiyoTofsil" />
+        <activity android:name=".DitiyoTofsil" />
+        <activity android:name=".ProthomTofsil" />
+        <activity
+            android:name=".EkadoshVag"
+            android:label="একাদশ ভাগ - বিবিধ" />
+        <activity
+            android:name=".DoshomVag"
+            android:label="দশম ভাগ - সংবিধান-সংশোধন" />
+        <activity
+            android:name=".NobomKoVag"
+            android:label="নবম-ক ভাগ - জরুরী বিধানাবলী" />
+        <activity
+            android:name=".NobomVag"
+            android:label="নবম ভাগ - বাংলাদেশের কর্মবিভাগ" />
+        <activity
+            android:name=".OshtomVag"
+            android:label="অষ্টম ভাগ - মহা হিসাব-নিরীক্ষক ও নিয়ন্ত্রক" />
+        <activity
+            android:name=".ShoptomVag"
+            android:label="সপ্তম ভাগ - নির্বাচন" />
+        <activity
+            android:name=".ShoshthoVag"
+            android:label="ষষ্ঠ ভাগ - বিচারবিভাগ" />
+        <activity
+            android:name=".PonchomVag"
+            android:label="পঞ্চম ভাগ - আইনসভা" />
+        <activity
+            android:name=".ChoturthoVag"
+            android:label="চতুর্থ ভাগ - নির্বাহী বিভাগ" />
+        <activity
+            android:name=".TritioVag"
+            android:label="তৃতীয় ভাগ - মৌলিক অধিকার" />
+        <activity
+            android:name=".DitiyoVag"
+            android:label="দ্বিতীয় ভাগ - রাষ্ট্র পরিচালনার মূলনীতি" />
+        <activity
+            android:name=".ProthomVag"
+            android:label="প্রথম ভাগ - প্রজাতন্ত্র" />
+        <activity
+            android:name=".Prostabona"
+            android:label="প্রস্তাবনা" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
