@@ -7,12 +7,12 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_home">বাংলাদেশের সংবিধান</string>
     <string name="menu_gallery">আজকের গুরুত্বপূর্ণ অনুচ্ছেদ</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_slideshow">তফসিল</string>
+    <string name="menu_tools">সংবিধান পড়ার নিয়ম</string>
+    <string name="menu_share">সংক্ষিপ্ত ইতিহাস</string>
+    <string name="menu_send">আজকের দিবস</string>
     <string name="prostabona_1">বিস্‌মিল্লাহির-রহ্‌মানির রহিম</string>
     <string name="prostabona_2">(দয়াময়, পরম দয়ালু, আল্লাহের নামে)/\n     পরম করুণাময় সৃষ্টিকর্তার নামে।</string>
     <string name="prostabona3">প্রস্তাবনা</string>
