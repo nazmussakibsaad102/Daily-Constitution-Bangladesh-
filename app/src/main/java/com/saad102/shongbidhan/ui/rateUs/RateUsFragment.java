@@ -1,5 +1,6 @@
 package com.saad102.shongbidhan.ui.rateUs;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.widget.ShareButton;
 import com.saad102.shongbidhan.R;
 
 public class RateUsFragment  extends Fragment {
@@ -23,13 +26,9 @@ public class RateUsFragment  extends Fragment {
         rateUsViewModel =
                 ViewModelProviders.of(this).get(RateUsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_rate_us, container, false);
-        final TextView textView = root.findViewById(R.id.rate_us);
-        rateUsViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+        ShareLinkContent content = new ShareLinkContent.Builder()
+                .setContentUrl(Uri.parse("https://developers.facebook.com"))
+                .build();
         return root;
     }
 }

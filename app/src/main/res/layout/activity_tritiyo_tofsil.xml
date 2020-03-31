@@ -13,16 +13,15 @@
 
 
         <TextView
-            android:id="@+id/prostabona1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/prostabona_1"
+            android:text="@string/tofsiltin_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
             android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
@@ -30,31 +29,41 @@
             android:background="@drawable/box_shadow"/>
 
         <TextView
-            android:id="@+id/prostabona2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/prostabona_2"
+            android:text="@string/tofsiltin_titletin"
             android:textAlignment="center"
             android:longClickable="true"
             android:textIsSelectable="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
+           android:layout_marginBottom="20dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
         <TextView
-            android:id="@+id/prostabona3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/prostabona3"
+            android:text="@string/tofsiltin_titledui"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
             android:textIsSelectable="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_rashtropoti_shopoth_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
@@ -62,20 +71,212 @@
             android:background="@drawable/box_shadow"/>
 
         <TextView
-            android:id="@+id/prostabona4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/prostabona_4"
-            android:textAlignment="center"
+            android:text="@string/tofsiltin_title_rashtropoti_shopoth"
             android:longClickable="true"
             android:textIsSelectable="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
+           android:layout_marginBottom="20dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_prodhanmontri_shopoth_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_prodhanmontri_shopoth"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_speaker_shopoth_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_speaker_shopoth"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_MP_shopoth_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_MP_shopoth"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_ProdhanBicharpoti_shopoth_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_ProdhanBicharpoti_shopoth"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_ProdhanNirbachonComissioner_shopoth_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_ProdhanNirbachonComissioner_shopoth"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_MohahishabNirikkhok_shopoth_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_MohahishabNirikkhok_shopoth"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_PSC_shopoth_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tofsiltin_title_PSC_shopoth"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+           android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+
+
+
+
+
     </LinearLayout>
 </ScrollView>
 

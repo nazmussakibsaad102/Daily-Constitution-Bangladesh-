@@ -15,12 +15,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/porarniyom_title"
+            android:text="@string/tofsilshat_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
             android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
+           android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
             android:elevation="8dp"
             android:padding="10dp"
@@ -31,10 +31,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/porarniyom__ek"
+            android:text="@string/tofsilshat_titletin"
+            android:textAlignment="center"
             android:longClickable="true"
             android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
+           android:layout_marginBottom="20dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
@@ -43,59 +44,56 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="পরিভাষাসমূহের ব্যাখ্যা উদাহরণসহ"
+            android:text="@string/tofsilshat_titledui_copy"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
             android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/porarniyom__dui"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="24sp"
             android:background="@drawable/box_shadow"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/porarniyom__tin"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
+           android:layout_marginBottom="20dp"
+            android:background="@drawable/box_shadow"
             android:elevation="8dp"
+            android:longClickable="true"
             android:padding="10dp"
+            android:text="@string/tofsilshat"
             android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/porarniyom__char"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
+           android:layout_marginBottom="20dp"
+            android:background="@drawable/box_shadow"
             android:elevation="8dp"
+            android:longClickable="true"
             android:padding="10dp"
+            android:text="@string/tofsilshat_foot_title"
             android:textColor="#000000"
+            android:textIsSelectable="true"
             android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-
-
-
-
+            android:gravity="right"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_shadow"
+            android:elevation="8dp"
+            android:longClickable="true"
+            android:padding="10dp"
+            android:text="@string/tofsilshat_foot"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:gravity="right"/>
     </LinearLayout>
 </ScrollView>
 

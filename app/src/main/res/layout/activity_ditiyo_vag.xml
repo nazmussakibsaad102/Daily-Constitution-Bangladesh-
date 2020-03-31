@@ -22,8 +22,8 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:textStyle="bold"
+           android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
@@ -37,8 +37,7 @@
             android:text="রাষ্ট্র পরিচালনার মূলনীতি"
             android:textAlignment="center"
             android:textIsSelectable="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
+           android:layout_marginBottom="20dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
@@ -53,7 +52,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -63,7 +62,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/at"
             android:textAlignment="center"
@@ -72,8 +71,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,7 +80,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -92,7 +90,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/noy_title"
             android:textAlignment="center"
@@ -101,8 +99,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -111,7 +108,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -121,7 +118,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/dosh"
             android:textAlignment="center"
@@ -130,8 +127,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -140,7 +136,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -150,7 +146,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/egaro"
             android:textAlignment="center"
@@ -159,8 +155,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -169,7 +164,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -179,7 +174,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/baro"
             android:textAlignment="center"
@@ -188,8 +183,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -198,7 +192,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -208,7 +202,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/tero"
             android:textAlignment="center"
@@ -217,8 +211,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -227,7 +220,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -237,7 +230,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/chouddo"
             android:textAlignment="center"
@@ -246,8 +239,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -256,7 +248,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -266,7 +258,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/ponero"
             android:textAlignment="center"
@@ -275,8 +267,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -285,7 +276,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -295,7 +286,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/sholo"
             android:textAlignment="center"
@@ -304,8 +295,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -314,7 +304,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -324,7 +314,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/shotero"
             android:textAlignment="center"
@@ -333,8 +323,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -343,7 +332,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -353,7 +342,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/atharo"
             android:textAlignment="center"
@@ -362,8 +351,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -372,7 +360,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -382,7 +370,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/atharo_ko"
             android:textAlignment="center"
@@ -391,8 +379,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -401,7 +388,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -411,7 +398,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/unish"
             android:textAlignment="center"
@@ -420,8 +407,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -430,7 +416,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -440,7 +426,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/bish"
             android:textAlignment="center"
@@ -449,8 +435,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -459,7 +444,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -469,7 +454,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/ekush"
             android:textAlignment="center"
@@ -478,8 +463,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -488,7 +472,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -498,7 +482,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/baish"
             android:textAlignment="center"
@@ -507,8 +491,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -517,7 +500,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -527,7 +510,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/teish"
             android:textAlignment="center"
@@ -536,8 +519,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -546,7 +528,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -556,7 +538,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/teish_ko"
             android:textAlignment="center"
@@ -565,8 +547,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -575,7 +556,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -585,7 +566,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/chobbish"
             android:textAlignment="center"
@@ -594,8 +575,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -604,7 +584,7 @@
             android:textAlignment="center"
             android:textIsSelectable="true"
             android:padding="10dp"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -614,7 +594,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
             android:longClickable="true"
             android:text="@string/pochish"
             android:textAlignment="center"
@@ -623,8 +603,7 @@
             android:textSize="18sp"
             android:padding="10dp"
             android:background="@drawable/box_shadow"
-            android:elevation="8dp"
-            android:layout_marginBottom="20dp"/>
+            android:elevation="8dp" />
 
     </LinearLayout>
 
