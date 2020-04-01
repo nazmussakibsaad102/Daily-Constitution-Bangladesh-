@@ -32,12 +32,15 @@
             android:title="@string/menu_send" />
         <item android:title="communicate">
             <menu>
+
         <item
             android:id="@+id/nav_rate_us"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/facebook"
             android:title="Share" />
+               
             </menu>
         </item>
+
 
     </group>
 

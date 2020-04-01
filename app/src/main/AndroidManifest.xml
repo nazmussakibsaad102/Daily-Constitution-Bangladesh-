@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.saad102.shongbidhan">
-<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SoptomTofsil"></activity>
+        <activity android:name=".ShoptodoshShongshodhoni"></activity>
+        <activity android:name=".ShoroshShongshodhoni" />
+        <activity android:name=".PonchodoshShongshodhoni" />
+        <activity android:name=".ChoturdoshShongshodhoni" />
+        <activity android:name=".TroyodoshShongshodhoni" />
+        <activity android:name=".DadoshShongshodhoni" />
+        <activity android:name=".DoshomShongshodhoni" />
+        <activity android:name=".EkadoshShongshodhoni" />
+        <activity android:name=".NobomShongshodhoni" />
+        <activity android:name=".OshtomShongshodhoni" />
+        <activity android:name=".ShoptomShongshodhoni" />
+        <activity android:name=".ShoshthoShongshodhoni" />
+        <activity android:name=".PonchomShongshodhoni" />
+        <activity android:name=".ChoturthoShongshodhoni" />
+        <activity android:name=".TritiyoShongshodhoni" />
+        <activity android:name=".DitiyoShongshodhoni" />
+        <activity android:name=".ProthomShongshodhoni" />
+        <activity android:name=".Shongshodhoni" />
+        <activity android:name=".SoptomTofsil" />
         <activity android:name=".ShoshthoTofsil" />
         <activity android:name=".PonchomTofsil" />
         <activity android:name=".ChoturthoTofsil" />
@@ -65,6 +85,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service
             android:name=".MessagingService"
             android:exported="false">
@@ -72,19 +93,27 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
-     See README(https://goo.gl/l4GJaQ) for more. -->
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/ic_stat_name" />
-        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
-             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
-        <provider android:authorities="com.facebook.app.FacebookContentProvider{APP_ID}"
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
             android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider763153537548127"
             android:exported="true" />
     </application>
 
