@@ -33,42 +33,19 @@ import com.saad102.shongbidhan.ui.home.HomeFragment;
 public class RateUsFragment  extends Fragment {
 
     private RateUsViewModel rateUsViewModel;
-    CallbackManager callbackManager;
-    ShareDialog shareDialog;
-    private static String TAG = "RateUsFragment";
 
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        callbackManager.onActivityResult(requestCode, resultCode, data);
-    }
+//    @Override
+//    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//        callbackManager.onActivityResult(requestCode, resultCode, data);
+//    }
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         rateUsViewModel =
                 ViewModelProviders.of(this).get(RateUsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_rate_us, container, false);
-
-        ShareLinkContent content = new ShareLinkContent.Builder()
-                .setContentUrl(Uri.parse("https://developers.facebook.com"))
-                .setQuote("সংবিধান প্রতিদিন এপ টি আমার ভাল লেগেছে, আপনারাও ইন্সটাল করে দেখতে পারেন")
-                .setShareHashtag(new ShareHashtag.Builder()
-                        .setHashtag("#BangladeshProtidin").build())
-                .build();
-
-        ShareButton shareButton = (ShareButton)root.findViewById(R.id.fb_botton);
-        shareButton.setShareContent(content);
-        shareButton.performClick();
-
-        Button openHome = (Button)root.findViewById(R.id.gotoHome);
-
-
-
-
-
-
-
 
         return root;
     }

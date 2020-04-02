@@ -9,62 +9,19 @@
         android:orientation="vertical"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:background="#ffffff">
+        android:background="#FFFFFF">
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_title"
+            android:text="@string/itihash_titile"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            android:background="@drawable/box_shadow"/>
-
-        <TextView
-            android:id="@+id/prostabona2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_titletin"
-           android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-            android:id="@+id/prostabona3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_titledui"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_gonoporishod_title"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
@@ -74,19 +31,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_gonoporishod"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_prothomnirbachon_title"
+            android:text="@string/itihash_ek_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
@@ -95,13 +40,12 @@
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_prothomnirbachon"
+            android:text="@string/itihash_ek"
             android:longClickable="true"
             android:textIsSelectable="true"
             android:layout_marginBottom="20dp"
@@ -111,251 +55,9 @@
             android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
         <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tofsilchar_gonoporishod_title"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:longClickable="true"
-        android:textIsSelectable="true"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:background="@drawable/box_shadow"/>
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_gonoporishod"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tofsilchar_dharabahikrokkha_title"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:longClickable="true"
-        android:textIsSelectable="true"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:background="@drawable/box_shadow"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_dharabahikrokkha"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tofsilchar_rashtropoti_title"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:longClickable="true"
-        android:textIsSelectable="true"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:background="@drawable/box_shadow"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_rashtropoti"
-            android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tofsilchar_prodhanmontri_title"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:longClickable="true"
-        android:textIsSelectable="true"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:background="@drawable/box_shadow"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_prodhanmontri"
-           android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tofsilchar_bicharbivag_title"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:longClickable="true"
-        android:textIsSelectable="true"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:background="@drawable/box_shadow"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_bicharbivag"
-           android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>  <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tofsilchar_apeal_title"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:longClickable="true"
-        android:textIsSelectable="true"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:background="@drawable/box_shadow"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_apeal"
-           android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tofsilchar_nirbachon_title"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:longClickable="true"
-        android:textIsSelectable="true"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:background="@drawable/box_shadow"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_nirbachon"
-           android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tofsilchar_psc_title"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:longClickable="true"
-        android:textIsSelectable="true"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:background="@drawable/box_shadow"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_psc"
-           android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tofsilchar_shorkarikormo_title"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:longClickable="true"
-        android:textIsSelectable="true"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:background="@drawable/box_shadow"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_shorkarikormo"
-           android:longClickable="true"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:background="@drawable/box_shadow"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_poderbohal_title"
+            android:text="@string/itihash_dui_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
@@ -364,14 +66,14 @@
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_poderbohal"
-           android:longClickable="true"
+            android:text="@string/itihash_dui"
+            android:longClickable="true"
             android:textIsSelectable="true"
             android:layout_marginBottom="20dp"
             android:elevation="8dp"
@@ -382,7 +84,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_sthanio_title"
+            android:text="@string/itihash_tin_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
@@ -391,14 +93,14 @@
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_sthanio"
-           android:longClickable="true"
+            android:text="@string/itihash_tin"
+            android:longClickable="true"
             android:textIsSelectable="true"
             android:layout_marginBottom="20dp"
             android:elevation="8dp"
@@ -409,7 +111,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_shorkarikormo_title"
+            android:text="@string/itihash_char_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
@@ -418,14 +120,14 @@
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_shorkarikormo"
-           android:longClickable="true"
+            android:text="@string/itihash_char"
+            android:longClickable="true"
             android:textIsSelectable="true"
             android:layout_marginBottom="20dp"
             android:elevation="8dp"
@@ -436,7 +138,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_korarop_title"
+            android:text="@string/itihash_pach_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
@@ -445,14 +147,14 @@
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_korarop"
-           android:longClickable="true"
+            android:text="@string/itihash_pach"
+            android:longClickable="true"
             android:textIsSelectable="true"
             android:layout_marginBottom="20dp"
             android:elevation="8dp"
@@ -463,7 +165,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_ontorborti_title"
+            android:text="@string/itihash_choy_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
@@ -472,14 +174,14 @@
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_ontorborti"
-           android:longClickable="true"
+            android:text="@string/itihash_choy"
+            android:longClickable="true"
             android:textIsSelectable="true"
             android:layout_marginBottom="20dp"
             android:elevation="8dp"
@@ -490,7 +192,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_otithishab_title"
+            android:text="@string/itihash_shat_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
@@ -499,14 +201,14 @@
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_otithishab"
-           android:longClickable="true"
+            android:text="@string/itihash_shat"
+            android:longClickable="true"
             android:textIsSelectable="true"
             android:layout_marginBottom="20dp"
             android:elevation="8dp"
@@ -517,7 +219,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_shorkarershompotti_title"
+            android:text="@string/itihash_at_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
@@ -526,14 +228,14 @@
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_shorkarershompotti"
-           android:longClickable="true"
+            android:text="@string/itihash_at"
+            android:longClickable="true"
             android:textIsSelectable="true"
             android:layout_marginBottom="20dp"
             android:elevation="8dp"
@@ -544,7 +246,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_ainerupojogikoron_title"
+            android:text="@string/itihash_noy_title"
             android:textAlignment="center"
             android:textStyle="bold"
             android:longClickable="true"
@@ -553,14 +255,14 @@
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tofsilchar_ainerupojogikoron"
-           android:longClickable="true"
+            android:text="@string/itihash_noy"
+            android:longClickable="true"
             android:textIsSelectable="true"
             android:layout_marginBottom="20dp"
             android:elevation="8dp"
@@ -568,6 +270,471 @@
             android:textColor="#000000"
             android:textSize="18sp"
             android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_dosh_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_dosh"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_egaro_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_egaro"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_baro_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_baro"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_tero_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_tero"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_choddo_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_choddo"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_ponero_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_ponero"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_sholo_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_sholo"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_shotero_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_shotero"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_atharo_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_atharo"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_unish_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_unish"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_bish_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_bish"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_ekush_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_ekush"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_baish_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_baish"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_teish_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_teish"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_chobbish_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_chobbish"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_at_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_at"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_at_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/itihash_at"
+            android:longClickable="true"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="20dp"
+            android:elevation="8dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/box_shadow"/>
+
+
+
+
 
     </LinearLayout>
 </ScrollView>

@@ -11,37 +11,42 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.saad102.shongbidhan.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_ajkerOnucched"
+        android:name="com.saad102.shongbidhan.ui.ajkerOnucched.AjkerOnucchedFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_ajker_onucched" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.saad102.shongbidhan.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_tofsil"
+        android:name="com.saad102.shongbidhan.ui.tofsil.TofsilFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_tofsil" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.saad102.shongbidhan.ui.tools.ToolsFragment"
+        android:id="@+id/nav_porar_niyom"
+        android:name="com.saad102.shongbidhan.ui.porarNiyom.PorarNiyomFragment"
         android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_porar_niyom" />
 
+    <fragment
+        android:id="@+id/nav_itihash"
+        android:name="com.saad102.shongbidhan.ui.itihash.ItihashFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_itihash" />
+
+    <fragment
+        android:id="@+id/nav_ajkerDibosh"
+        android:name="com.saad102.shongbidhan.ui.ajkerDibosh.AjkerDiboshFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_ajker_dibosh" />
     <fragment
         android:id="@+id/nav_share"
-        android:name="com.saad102.shongbidhan.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
-
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.saad102.shongbidhan.ui.send.SendFragment"
         android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:name="com.saad102.shongbidhan.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_share" />\
     <fragment
         android:id="@+id/nav_rate_us"
-        android:name="com.saad102.shongbidhan.ui.rateUs.RateUsFragment"
         android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:name="com.saad102.shongbidhan.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_rate_us" />
 </navigation>

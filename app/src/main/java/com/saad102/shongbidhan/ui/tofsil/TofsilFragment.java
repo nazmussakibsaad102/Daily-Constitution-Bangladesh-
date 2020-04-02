@@ -1,18 +1,18 @@
-package com.saad102.shongbidhan.ui.slideshow;
+package com.saad102.shongbidhan.ui.tofsil;
+
+import androidx.cardview.widget.CardView;
+import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-
-import androidx.annotation.Nullable;
-import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
-import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.saad102.shongbidhan.ChoturthoTofsil;
 import com.saad102.shongbidhan.DitiyoTofsil;
@@ -23,16 +23,17 @@ import com.saad102.shongbidhan.ShoshthoTofsil;
 import com.saad102.shongbidhan.SoptomTofsil;
 import com.saad102.shongbidhan.TritiyoTofsil;
 
-public class SlideshowFragment extends Fragment {
+public class TofsilFragment extends Fragment {
 
-    private SlideshowViewModel slideshowViewModel;
+    private TofsilViewModel tofsilViewModel;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        slideshowViewModel =
-                ViewModelProviders.of(this).get(SlideshowViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
 
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        tofsilViewModel =
+                ViewModelProviders.of(this).get(TofsilViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_tofsil, container, false);
         final CardView bt1 = root.findViewById(R.id.bt_tofsil1);
         bt1.setOnClickListener(
                 new View.OnClickListener() {
@@ -106,5 +107,10 @@ public class SlideshowFragment extends Fragment {
         );
 
         return root;
+
     }
-}
+
+
+    }
+
+

@@ -29,7 +29,9 @@ import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.navigation.NavController;
+import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
@@ -101,20 +103,53 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_slideshow, R.id.nav_gallery,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_send, R.id.nav_rate_us
+                R.id.nav_home, R.id.nav_tofsil, R.id.nav_ajkerOnucched,
+                R.id.nav_porar_niyom, R.id.nav_itihash, R.id.nav_ajkerDibosh, R.id.nav_share, R.id.nav_rate_us
         )
                 .setDrawerLayout(drawer)
                 .build();
-
-
-
-
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
+      navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
+          @Override
+          public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
+              if (destination.getId() == R.id.nav_home){
+                  Toast.makeText(MainActivity.this, "home", Toast.LENGTH_SHORT).show();
+              }
+              if (destination.getId() == R.id.nav_ajkerOnucched){
+                  Toast.makeText(MainActivity.this, "ajker onucched", Toast.LENGTH_SHORT).show();
+              }
+              if (destination.getId() == R.id.nav_ajkerDibosh){
+                  Toast.makeText(MainActivity.this, "ajkerDibosh", Toast.LENGTH_SHORT).show();
+              }
+
+              if (destination.getId() == R.id.nav_porar_niyom){
+                  Toast.makeText(MainActivity.this, "PorarNiyom", Toast.LENGTH_SHORT).show();
+              }
+              if (destination.getId() == R.id.nav_itihash){
+                  Toast.makeText(MainActivity.this, "itihash", Toast.LENGTH_SHORT).show();
+              }
+
+              if (destination.getId() == R.id.nav_share){
+                  Intent sendIntent = new Intent();
+                  sendIntent.setAction(Intent.ACTION_SEND);
+                  sendIntent.putExtra(Intent.EXTRA_TEXT, "www.google.com");
+                  sendIntent.setType("text/plain");
+
+                  Intent shareIntent = Intent.createChooser(sendIntent, null);
+                  startActivity(shareIntent);
+
+              }
+              if (destination.getId() == R.id.nav_rate_us){
+                  Toast.makeText(MainActivity.this, "rate_us", Toast.LENGTH_SHORT).show();
+              }
+
+
+          }
+      });
 
 //        Button bt = (Button) findViewById(R.id.bt1);
 //        bt.setOnClickListener(

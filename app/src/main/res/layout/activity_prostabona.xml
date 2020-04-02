@@ -9,7 +9,7 @@
             android:orientation="vertical"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:background="#EDEDED">
+            android:background="#FFFFFF">
 
 
             <TextView
@@ -64,7 +64,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/prostabona_4"
-                android:textAlignment="center"
                 android:longClickable="true"
                 android:textIsSelectable="true"
                android:layout_marginBottom="20dp"

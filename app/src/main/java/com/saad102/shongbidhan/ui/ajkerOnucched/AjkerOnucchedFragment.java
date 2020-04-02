@@ -1,22 +1,20 @@
-package com.saad102.shongbidhan.ui.gallery;
+package com.saad102.shongbidhan.ui.ajkerOnucched;
+
+import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
-
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
@@ -24,12 +22,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.saad102.shongbidhan.R;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class GalleryFragment extends Fragment {
-
-    private GalleryViewModel galleryViewModel;
+public class AjkerOnucchedFragment extends Fragment {
     String KEY_TITLE="title";
     String Key_DES = "description";
     String KEY_BEK = "explanation";
@@ -38,7 +31,7 @@ public class GalleryFragment extends Fragment {
     private TextView textDescription;
     private TextView textBekkhaTitle;
     private TextView textBekkha;
-//    private TextView textLoaded;
+    //    private TextView textLoaded;
     private String title;
     private String description;
     private Button fButton;
@@ -46,23 +39,17 @@ public class GalleryFragment extends Fragment {
     FirebaseFirestore db= FirebaseFirestore.getInstance();
     DocumentReference constitutionLoad = db.document("/সংবিধান/অনুচ্ছেদ");
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                ViewModelProviders.of(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-//        final TextView textView = root.findViewById(R.id.text_gallery);
-//        galleryViewModel.getText().observe(this, new Observer<String>() {
-//            @Override
-//            public void onChanged(@Nullable String s) {
-//                textView.setText(s);
-//            }
-//        });
+    private AjkerOnucchedViewModel ajkerOnucchedViewModel;
 
-         textTitle = root.findViewById(R.id.ajkerTitle);
-       textDescription = root.findViewById(R.id.ajkerDescription);
-       textBekkha = root.findViewById(R.id.ajkerBekkha);
-       textBekkhaTitle = root.findViewById(R.id.ajkerBekkhaTitle);
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        ajkerOnucchedViewModel =
+                ViewModelProviders.of(this).get(AjkerOnucchedViewModel.class);
+       View root = inflater.inflate(R.layout.fragment_ajker_onucched, container, false);
+        textTitle = root.findViewById(R.id.ajkerTitle);
+        textDescription = root.findViewById(R.id.ajkerDescription);
+        textBekkha = root.findViewById(R.id.ajkerBekkha);
+        textBekkhaTitle = root.findViewById(R.id.ajkerBekkhaTitle);
 //       fButton=root.findViewById(R.id.f1);
 
         constitutionLoad.addSnapshotListener(new EventListener<DocumentSnapshot>() {
@@ -72,17 +59,17 @@ public class GalleryFragment extends Fragment {
                     Toast.makeText(getActivity(), "error while loading", Toast.LENGTH_LONG).show();
                     return;
                 }
-               if (documentSnapshot.exists()){
-                   String title = documentSnapshot.getString(KEY_TITLE);
-                   String des = documentSnapshot.getString(Key_DES);
-                   String bekkhaTitle = documentSnapshot.getString(KEY_BEKTITLE);
-                   String bekkha = documentSnapshot.getString(KEY_BEK);
-                   textTitle.setText( title);
-                   textDescription.setText(des);
-                   textBekkhaTitle.setText(bekkhaTitle);
-                   textBekkha.setText(bekkha);
+                if (documentSnapshot.exists()){
+                    String title = documentSnapshot.getString(KEY_TITLE);
+                    String des = documentSnapshot.getString(Key_DES);
+                    String bekkhaTitle = documentSnapshot.getString(KEY_BEKTITLE);
+                    String bekkha = documentSnapshot.getString(KEY_BEK);
+                    textTitle.setText( title);
+                    textDescription.setText(des);
+                    textBekkhaTitle.setText(bekkhaTitle);
+                    textBekkha.setText(bekkha);
 
-               }
+                }
 
             }
         });
@@ -144,10 +131,8 @@ public class GalleryFragment extends Fragment {
 //                    }
 //                }
 //        );
-
-         return root;
+       return root;
     }
-
 
 
 }
