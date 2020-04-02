@@ -11,25 +11,25 @@
         <item
             android:id="@+id/nav_tofsil"
             android:icon="@drawable/tofsil"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_tofsil" />
         <item
             android:id="@+id/nav_ajkerOnucched"
             android:icon="@drawable/ajker_guruttopurno_onucched"
-            android:title="@string/menu_gallery" />
+            android:title="@string/menu_ajker_onucched" />
 
         <item
             android:id="@+id/nav_porar_niyom"
             android:icon="@drawable/porar_niyom"
-            android:title="@string/menu_tools" />
+            android:title="@string/menu_porar_niyom" />
 
         <item
             android:id="@+id/nav_itihash"
             android:icon="@drawable/itihash"
-            android:title="@string/menu_share" />
+            android:title="@string/menu_itihash" />
         <item
             android:id="@+id/nav_ajkerDibosh"
             android:icon="@drawable/ajker_dibosh"
-            android:title="@string/menu_send" />
+            android:title="@string/menu_ajker_dibosh" />
         <item android:title="communicate">
             <menu>
 
