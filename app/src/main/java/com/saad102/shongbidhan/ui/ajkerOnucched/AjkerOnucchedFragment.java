@@ -2,6 +2,7 @@ package com.saad102.shongbidhan.ui.ajkerOnucched;
 
 import androidx.lifecycle.ViewModelProviders;
 
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -15,6 +16,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.share.model.ShareHashtag;
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.widget.ShareButton;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
@@ -27,8 +31,8 @@ public class AjkerOnucchedFragment extends Fragment {
     String Key_DES = "description";
     String KEY_BEK = "explanation";
     String KEY_BEKTITLE = "bekkhaTitle";
-    private TextView textTitle;
-    private TextView textDescription;
+    public TextView textTitle;
+    public TextView textDescription;
     private TextView textBekkhaTitle;
     private TextView textBekkha;
     //    private TextView textLoaded;
@@ -50,6 +54,7 @@ public class AjkerOnucchedFragment extends Fragment {
         textDescription = root.findViewById(R.id.ajkerDescription);
         textBekkha = root.findViewById(R.id.ajkerBekkha);
         textBekkhaTitle = root.findViewById(R.id.ajkerBekkhaTitle);
+
 //       fButton=root.findViewById(R.id.f1);
 
         constitutionLoad.addSnapshotListener(new EventListener<DocumentSnapshot>() {
@@ -69,10 +74,22 @@ public class AjkerOnucchedFragment extends Fragment {
                     textBekkhaTitle.setText(bekkhaTitle);
                     textBekkha.setText(bekkha);
 
+
+
                 }
 
             }
         });
+
+        ShareLinkContent content = new ShareLinkContent.Builder()
+                .setContentUrl(Uri.parse("https://play.google.com/store/apps/details?id=com.saad102.shongbidhan"))
+                .setShareHashtag(new ShareHashtag.Builder()
+                        .setHashtag("#বাংলাদেশ_প্রতিদিন")
+                .build())
+                .setQuote("এপটি আমার ভাল লেগেছে, আপনিও ইনস্টল করে দেখতে পারেন")
+                .build();
+        ShareButton shareButton = (ShareButton)root.findViewById(R.id.fb_share);
+        shareButton.setShareContent(content);
 
 
 

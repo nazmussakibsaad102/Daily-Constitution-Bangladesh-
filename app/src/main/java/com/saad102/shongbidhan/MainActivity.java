@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_tofsil, R.id.nav_ajkerOnucched,
-                R.id.nav_porar_niyom, R.id.nav_itihash, R.id.nav_ajkerDibosh, R.id.nav_share, R.id.nav_rate_us
+                R.id.nav_porar_niyom, R.id.nav_itihash, R.id.nav_ajkerDibosh, R.id.nav_share, R.id.nav_rate_us, R.id.nav_report
         )
                 .setDrawerLayout(drawer)
                 .build();
@@ -117,26 +117,22 @@ public class MainActivity extends AppCompatActivity {
           @Override
           public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
               if (destination.getId() == R.id.nav_home){
-                  Toast.makeText(MainActivity.this, "home", Toast.LENGTH_SHORT).show();
               }
               if (destination.getId() == R.id.nav_ajkerOnucched){
-                  Toast.makeText(MainActivity.this, "ajker onucched", Toast.LENGTH_SHORT).show();
               }
               if (destination.getId() == R.id.nav_ajkerDibosh){
-                  Toast.makeText(MainActivity.this, "ajkerDibosh", Toast.LENGTH_SHORT).show();
               }
 
               if (destination.getId() == R.id.nav_porar_niyom){
-                  Toast.makeText(MainActivity.this, "PorarNiyom", Toast.LENGTH_SHORT).show();
               }
               if (destination.getId() == R.id.nav_itihash){
-                  Toast.makeText(MainActivity.this, "itihash", Toast.LENGTH_SHORT).show();
+//                  Toast.makeText(MainActivity.this, "itihash", Toast.LENGTH_SHORT).show();
               }
 
               if (destination.getId() == R.id.nav_share){
                   Intent sendIntent = new Intent();
                   sendIntent.setAction(Intent.ACTION_SEND);
-                  sendIntent.putExtra(Intent.EXTRA_TEXT, "www.google.com");
+                  sendIntent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.saad102.shongbidhan");
                   sendIntent.setType("text/plain");
 
                   Intent shareIntent = Intent.createChooser(sendIntent, null);
@@ -144,7 +140,15 @@ public class MainActivity extends AppCompatActivity {
 
               }
               if (destination.getId() == R.id.nav_rate_us){
-                  Toast.makeText(MainActivity.this, "rate_us", Toast.LENGTH_SHORT).show();
+                  Intent i = new Intent(Intent.ACTION_VIEW , Uri.parse("https://play.google.com/store/apps/details?id=com.saad102.shongbidhan"));
+                  startActivity(i);
+              }
+              if (destination.getId() == R.id.nav_report){
+                  Intent intent = new Intent(Intent.ACTION_SENDTO);
+                  intent.setData(Uri.parse("mailto:sakibsaad102@gmail.com")); // only email apps should handle this
+                  startActivity(intent);
+
+
               }
 
 

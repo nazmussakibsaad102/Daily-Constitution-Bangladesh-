@@ -43,10 +43,15 @@
         android:id="@+id/nav_share"
         android:label="@string/menu_share"
         android:name="com.saad102.shongbidhan.ui.home.HomeFragment"
-        tools:layout="@layout/fragment_share" />\
+        tools:layout="@layout/fragment_home" />\
     <fragment
         android:id="@+id/nav_rate_us"
         android:label="@string/menu_rate_us"
         android:name="com.saad102.shongbidhan.ui.home.HomeFragment"
-        tools:layout="@layout/fragment_rate_us" />
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_report"
+        android:label="@string/menu_report"
+        android:name="com.saad102.shongbidhan.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
 </navigation>
