@@ -11,6 +11,11 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.saad102.shongbidhan.ChoturthoVag;
 import com.saad102.shongbidhan.DitiyoVag;
 import com.saad102.shongbidhan.DoshomVag;
@@ -25,17 +30,38 @@ import com.saad102.shongbidhan.ShoptomVag;
 import com.saad102.shongbidhan.ShoshthoVag;
 import com.saad102.shongbidhan.TritioVag;
 
+
 public class HomeFragment extends Fragment {
+
 
     private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
 
+        AdView mAdView1;
+        AdView mAdView2;
+        AdView mAdView3;
+        AdView mAdView4;
+        AdView mAdView5;
+
+        MobileAds.initialize(getActivity(), "ca-app-pub-9080134869791919~2786856699");
+        mAdView1 = (AdView) root.findViewById(R.id.adView1);
+        mAdView2 = (AdView) root.findViewById(R.id.adView2);
+        mAdView3 = (AdView) root.findViewById(R.id.adView3);
+        mAdView4 = (AdView) root.findViewById(R.id.adView4);
+        mAdView5 = (AdView) root.findViewById(R.id.adView5);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView1.loadAd(adRequest);
+        mAdView2.loadAd(adRequest);
+        mAdView3.loadAd(adRequest);
+        mAdView4.loadAd(adRequest);
+        mAdView5.loadAd(adRequest);
         final CardView bt1 = root.findViewById(R.id.bt1);
         bt1.setOnClickListener(
                 new View.OnClickListener() {

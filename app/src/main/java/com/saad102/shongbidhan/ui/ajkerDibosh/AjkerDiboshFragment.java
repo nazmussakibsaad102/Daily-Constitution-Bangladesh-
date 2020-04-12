@@ -15,6 +15,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
@@ -44,6 +47,17 @@ public class AjkerDiboshFragment extends Fragment {
         ajkerdiboshViewModel =
                 ViewModelProviders.of(this).get(AjkerDiboshViewModel.class);
         View root =  inflater.inflate(R.layout.fragment_ajker_dibosh, container, false);
+
+        AdView mAdView;
+
+
+        MobileAds.initialize(getActivity(), "ca-app-pub-9080134869791919~2786856699");
+        mAdView = (AdView)root.findViewById(R.id.adView);
+
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
         date = root.findViewById(R.id.date);
         international = root.findViewById(R.id.international);
         bangladesh = root.findViewById(R.id.bangladesh);
