@@ -15,14 +15,7 @@ public class Prostabona extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_prostabona);
-        AdView mAdView;
 
 
-        MobileAds.initialize(Prostabona.this, "ca-app-pub-9080134869791919~2786856699");
-        mAdView = (AdView)findViewById(R.id.adView);
-
-
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
     }
 }

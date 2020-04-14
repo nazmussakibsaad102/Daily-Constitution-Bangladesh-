@@ -14,23 +14,6 @@ public class ShoptomVag extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shoptom_vag);
-        AdView mAdView1;
-        AdView mAdView2;
-        AdView mAdView3;
-        AdView mAdView4;
-        AdView mAdView5;
 
-        MobileAds.initialize(ShoptomVag.this, "ca-app-pub-9080134869791919~2786856699");
-        mAdView1 = (AdView)findViewById(R.id.adView1);
-        mAdView2 = (AdView)findViewById(R.id.adView2);
-        mAdView3 = (AdView)findViewById(R.id.adView3);
-        mAdView4 = (AdView)findViewById(R.id.adView4);
-        mAdView5 = (AdView)findViewById(R.id.adView5);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView1.loadAd(adRequest);
-        mAdView2.loadAd(adRequest);
-        mAdView3.loadAd(adRequest);
-        mAdView4.loadAd(adRequest);
-        mAdView5.loadAd(adRequest);
     }
 }

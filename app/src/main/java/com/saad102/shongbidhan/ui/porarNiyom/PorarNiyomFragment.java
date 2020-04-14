@@ -28,16 +28,9 @@ public class PorarNiyomFragment extends Fragment {
                 ViewModelProviders.of(this).get(PorarNiyomViewModel.class);
         View root =  inflater.inflate(R.layout.fragment_porar_niyom, container, false);
 
-        AdView mAdView1;
-        AdView mAdView2;
 
 
-        MobileAds.initialize(getActivity(), "ca-app-pub-9080134869791919~2786856699");
-        mAdView1 = (AdView)root.findViewById(R.id.adView1);
-        mAdView2 = (AdView)root.findViewById(R.id.adView2);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView1.loadAd(adRequest);
-        mAdView2.loadAd(adRequest);
+
 
         return root;
     }

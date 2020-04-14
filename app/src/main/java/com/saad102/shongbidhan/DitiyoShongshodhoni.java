@@ -17,11 +17,6 @@ public class DitiyoShongshodhoni extends AppCompatActivity {
         AdView mAdView;
 
 
-        MobileAds.initialize(DitiyoShongshodhoni.this, "ca-app-pub-9080134869791919~2786856699");
-        mAdView = (AdView)findViewById(R.id.adView);
 
-
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
     }
 }

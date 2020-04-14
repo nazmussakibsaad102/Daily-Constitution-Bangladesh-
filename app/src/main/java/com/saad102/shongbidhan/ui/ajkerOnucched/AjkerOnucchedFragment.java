@@ -41,6 +41,9 @@ public class AjkerOnucchedFragment extends Fragment {
     private TextView textBekkha;
     //    private TextView textLoaded;
     private String title;
+    String des;
+    String bekkha;
+    String bekkhaTitle;
     private String description;
     private Button fButton;
     private Button floadButton;
@@ -55,15 +58,7 @@ public class AjkerOnucchedFragment extends Fragment {
                 ViewModelProviders.of(this).get(AjkerOnucchedViewModel.class);
        View root = inflater.inflate(R.layout.fragment_ajker_onucched, container, false);
 
-        AdView mAdView1;
-        AdView mAdView2;
 
-        MobileAds.initialize(getActivity(), "ca-app-pub-9080134869791919~2786856699");
-        mAdView1 = (AdView)root.findViewById(R.id.adView1);
-        mAdView2 = (AdView)root.findViewById(R.id.adView2);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView1.loadAd(adRequest);
-        mAdView2.loadAd(adRequest);
 
         textTitle = root.findViewById(R.id.ajkerTitle);
         textDescription = root.findViewById(R.id.ajkerDescription);
@@ -80,10 +75,10 @@ public class AjkerOnucchedFragment extends Fragment {
                     return;
                 }
                 if (documentSnapshot.exists()){
-                    String title = documentSnapshot.getString(KEY_TITLE);
-                    String des = documentSnapshot.getString(Key_DES);
-                    String bekkhaTitle = documentSnapshot.getString(KEY_BEKTITLE);
-                    String bekkha = documentSnapshot.getString(KEY_BEK);
+                     title = documentSnapshot.getString(KEY_TITLE);
+                    des = documentSnapshot.getString(Key_DES);
+                    bekkhaTitle = documentSnapshot.getString(KEY_BEKTITLE);
+                    bekkha = documentSnapshot.getString(KEY_BEK);
                     textTitle.setText( title);
                     textDescription.setText(des);
                     textBekkhaTitle.setText(bekkhaTitle);
@@ -96,15 +91,15 @@ public class AjkerOnucchedFragment extends Fragment {
             }
         });
 
-        ShareLinkContent content = new ShareLinkContent.Builder()
-                .setContentUrl(Uri.parse("https://play.google.com/store/apps/details?id=com.saad102.shongbidhan"))
-                .setShareHashtag(new ShareHashtag.Builder()
-                        .setHashtag("#সংবিধান_প্রতিদিন")
-                .build())
-                .setQuote("অ্যাপটি আমার ভাল লেগেছে, আপনিও ইনস্টল করে দেখতে পারেন")
-                .build();
-        ShareButton shareButton = (ShareButton)root.findViewById(R.id.fb_share);
-        shareButton.setShareContent(content);
+//        ShareLinkContent content = new ShareLinkContent.Builder()
+//                .setContentUrl(Uri.parse("https://play.google.com/store/apps/details?id=com.saad102.shongbidhan"))
+//                .setShareHashtag(new ShareHashtag.Builder()
+//                        .setHashtag("#সংবিধান_প্রতিদিন")
+//                .build())
+//                .setQuote("অ্যাপটি আমার ভাল লেগেছে, আপনিও ইনস্টল করে দেখতে পারেন")
+//                .build();
+//        ShareButton shareButton = (ShareButton)root.findViewById(R.id.fb_share);
+//        shareButton.setShareContent(content);
 
 
 

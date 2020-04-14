@@ -38,20 +38,7 @@ public class TofsilFragment extends Fragment {
                 ViewModelProviders.of(this).get(TofsilViewModel.class);
         View root = inflater.inflate(R.layout.fragment_tofsil, container, false);
 
-        AdView mAdView1;
-        AdView mAdView2;
-        AdView mAdView3;
 
-
-        MobileAds.initialize(getActivity(), "ca-app-pub-9080134869791919~2786856699");
-        mAdView1 = (AdView)root.findViewById(R.id.adView1);
-        mAdView2 = (AdView)root.findViewById(R.id.adView2);
-        mAdView3 = (AdView)root.findViewById(R.id.adView3);
-
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView1.loadAd(adRequest);
-        mAdView2.loadAd(adRequest);
-        mAdView3.loadAd(adRequest);
 
         final CardView bt1 = root.findViewById(R.id.bt_tofsil1);
         bt1.setOnClickListener(

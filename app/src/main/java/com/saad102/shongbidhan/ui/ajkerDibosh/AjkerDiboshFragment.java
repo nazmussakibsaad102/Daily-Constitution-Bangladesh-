@@ -48,15 +48,10 @@ public class AjkerDiboshFragment extends Fragment {
                 ViewModelProviders.of(this).get(AjkerDiboshViewModel.class);
         View root =  inflater.inflate(R.layout.fragment_ajker_dibosh, container, false);
 
-        AdView mAdView;
 
 
-        MobileAds.initialize(getActivity(), "ca-app-pub-9080134869791919~2786856699");
-        mAdView = (AdView)root.findViewById(R.id.adView);
 
 
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         date = root.findViewById(R.id.date);
         international = root.findViewById(R.id.international);
