@@ -23,9 +23,13 @@
             android:title="@string/menu_porar_niyom" />
 
         <item
-            android:id="@+id/nav_itihash"
-            android:icon="@drawable/itihash"
-            android:title="@string/menu_itihash" />
+        android:id="@+id/nav_itihash"
+        android:icon="@drawable/itihash"
+        android:title="@string/menu_itihash" />
+        <item
+            android:id="@+id/nav_banan_bivrat"
+            android:icon="@drawable/banan_bivrat"
+            android:title="@string/menu_banan_bivrat" />
         <item
             android:id="@+id/nav_ajkerDibosh"
             android:icon="@drawable/ajker_dibosh"

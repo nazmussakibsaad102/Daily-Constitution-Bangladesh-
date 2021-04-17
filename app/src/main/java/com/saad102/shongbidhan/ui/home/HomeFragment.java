@@ -20,6 +20,7 @@ import com.saad102.shongbidhan.ChoturthoVag;
 import com.saad102.shongbidhan.DitiyoVag;
 import com.saad102.shongbidhan.DoshomVag;
 import com.saad102.shongbidhan.EkadoshVag;
+import com.saad102.shongbidhan.NobomKoVag;
 import com.saad102.shongbidhan.NobomVag;
 import com.saad102.shongbidhan.OshtomVag;
 import com.saad102.shongbidhan.PonchomVag;
@@ -153,7 +154,7 @@ public class HomeFragment extends Fragment {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intetnt= new Intent(getActivity(), NobomVag.class);
+                        Intent intetnt= new Intent(getActivity(), NobomKoVag.class);
                         startActivity(intetnt);
                     }
                 }

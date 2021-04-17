@@ -28,11 +28,17 @@
         android:label="@string/menu_porar_niyom"
         tools:layout="@layout/fragment_porar_niyom" />
 
+
     <fragment
         android:id="@+id/nav_itihash"
         android:name="com.saad102.shongbidhan.ui.itihash.ItihashFragment"
         android:label="@string/menu_itihash"
         tools:layout="@layout/fragment_itihash" />
+    <fragment
+        android:id="@+id/nav_banan_bivrat"
+        android:name="com.saad102.shongbidhan.ui.BananBivrat.BananBivratFragment"
+        android:label="@string/menu_banan_bivrat"
+        tools:layout="@layout/fragment_banan_bivrat" />
 
     <fragment
         android:id="@+id/nav_ajkerDibosh"

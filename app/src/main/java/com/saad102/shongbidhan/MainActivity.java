@@ -123,47 +123,47 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-      navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
-          @Override
-          public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
-              if (destination.getId() == R.id.nav_home){
-              }
-              if (destination.getId() == R.id.nav_ajkerOnucched){
-              }
-              if (destination.getId() == R.id.nav_ajkerDibosh){
-              }
+        navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
+            @Override
+            public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
+                if (destination.getId() == R.id.nav_home){
+                }
+                if (destination.getId() == R.id.nav_ajkerOnucched){
+                }
+                if (destination.getId() == R.id.nav_ajkerDibosh){
+                }
 
-              if (destination.getId() == R.id.nav_porar_niyom){
-              }
-              if (destination.getId() == R.id.nav_itihash){
+                if (destination.getId() == R.id.nav_porar_niyom){
+                }
+                if (destination.getId() == R.id.nav_itihash){
 //                  Toast.makeText(MainActivity.this, "itihash", Toast.LENGTH_SHORT).show();
-              }
+                }
 
-              if (destination.getId() == R.id.nav_share){
-                  Intent sendIntent = new Intent();
-                  sendIntent.setAction(Intent.ACTION_SEND);
-                  sendIntent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.saad102.shongbidhan");
-                  sendIntent.setType("text/plain");
+                if (destination.getId() == R.id.nav_share){
+                    Intent sendIntent = new Intent();
+                    sendIntent.setAction(Intent.ACTION_SEND);
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.saad102.shongbidhan");
+                    sendIntent.setType("text/plain");
 
-                  Intent shareIntent = Intent.createChooser(sendIntent, null);
-                  startActivity(shareIntent);
+                    Intent shareIntent = Intent.createChooser(sendIntent, null);
+                    startActivity(shareIntent);
 
-              }
-              if (destination.getId() == R.id.nav_rate_us){
-                  Intent i = new Intent(Intent.ACTION_VIEW , Uri.parse("https://play.google.com/store/apps/details?id=com.saad102.shongbidhan"));
-                  startActivity(i);
-              }
-              if (destination.getId() == R.id.nav_report){
-                  Intent intent = new Intent(Intent.ACTION_SENDTO);
-                  intent.setData(Uri.parse("mailto:sakibsaad102@gmail.com")); // only email apps should handle this
-                  startActivity(intent);
-
-
-              }
+                }
+                if (destination.getId() == R.id.nav_rate_us){
+                    Intent i = new Intent(Intent.ACTION_VIEW , Uri.parse("https://play.google.com/store/apps/details?id=com.saad102.shongbidhan"));
+                    startActivity(i);
+                }
+                if (destination.getId() == R.id.nav_report){
+                    Intent intent = new Intent(Intent.ACTION_SENDTO);
+                    intent.setData(Uri.parse("mailto:sakibsaad102@gmail.com")); // only email apps should handle this
+                    startActivity(intent);
 
 
-          }
-      });
+                }
+
+
+            }
+        });
 
 //        Button bt = (Button) findViewById(R.id.bt1);
 //        bt.setOnClickListener(

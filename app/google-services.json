@@ -8,9 +8,38 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:795985521673:android:ca0bd6e77147796452dcd8",
+        "mobilesdk_app_id": "1:795985521673:android:85ba81713b944d6d52dcd8",
         "android_client_info": {
           "package_name": "com.saad102.shongbidhan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795985521673-s6rfl4m5ghqaqniafjclake7c3benj23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvWMvirJbQro65mNwhC6mltt6Lw0tgPm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795985521673-s6rfl4m5ghqaqniafjclake7c3benj23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795985521673:android:73afa6137d39745452dcd8",
+        "android_client_info": {
+          "package_name": "com.sifatsdroid.salat_times"
         }
       },
       "oauth_client": [

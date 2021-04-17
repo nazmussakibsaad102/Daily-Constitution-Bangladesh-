@@ -88,7 +88,7 @@
             android:text="@string/porarniyom__char"
             android:longClickable="true"
             android:textIsSelectable="true"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="100dp"
             android:elevation="8dp"
             android:padding="10dp"
             android:textColor="#000000"
